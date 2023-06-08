@@ -4,7 +4,7 @@ var swiper =  new Swiper(".mainslider", {
     disableOnInteraction: false,
     },
     slidesPerView: 1,
-    loop: true,
+    loop: false,
     speed: 500,
     effect: "fade",
     fadeEffect: {
@@ -22,7 +22,7 @@ var swiper =  new Swiper(".carousel", {
         disableOnInteraction: false,
         },
     slidesPerView: 1,
-    loop: true, 
+    loop: false, 
     spaceBetween: 30,
     navigation: {
         clickable: true,
@@ -50,7 +50,7 @@ var swiper =  new Swiper(".carousel-2", {
         disableOnInteraction: false,
     },
     slidesPerView: 1,   
-    loop: true,
+    loop: false,
     spaceBetween: 30,
     navigation: {
         clickable: true,

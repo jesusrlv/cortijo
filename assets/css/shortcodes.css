@@ -321,7 +321,8 @@
     position: relative;
     padding-top: 229px;
     padding-bottom: 158px;
-    background:linear-gradient(150deg,  rgba(2,6,9,0.93) 33%,  rgba(2,6,9,0) 77%), url("../img/slider/img_bg_slider_home01.jpg") no-repeat fixed center center ; 
+    /* background:linear-gradient(150deg,  rgba(2,6,9,0.93) 33%,  rgba(2,6,9,0) 77%), url("../img/slider/img_bg_slider_home01.jpg") no-repeat fixed center center ;  */
+    background:linear-gradient(40deg,  rgba(2,6,9,0.15) 5%,  rgba(2,6,9,9) 12%), url("../../img/fondo.png") no-repeat fixed center center ; 
     z-index: 100;
     background-size: cover;
 }
