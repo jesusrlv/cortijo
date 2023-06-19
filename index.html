@@ -22,6 +22,9 @@
 
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+
 </head>
 
 <style>
@@ -74,7 +77,7 @@
 										<li class="menu-item menu-item-has-children">
 											<a href="#">Shop</a>
 											<ul class="sub-menu">
-												<li class="menu-item"><a href="our-shop.html">Our Shop</a></li>
+												<li class="menu-item"><a href="#">Our Shop</a></li>
 												<li class="menu-item"><a href="shop-details.html">Shop Details</a></li>
 											</ul>
 										</li>
@@ -386,19 +389,6 @@
 									<p class="tf-sub-heading">En Cortijo San Sebastián, te invitamos
 										a explorar las tradiciones y sabores de
 										Zacatecas como:</p>
-										<p>
-											<ul>
-												<li>Festival Taurino</li>
-												<li>Festival de vino y maridaje</li>
-												<li>Exhibición y venta de Artesanías
-													Zacatecanas</li>
-												<li>Eventos al aire libre</li>
-												<li>Música (flamenco, mariachi, etc.)</li>
-												<li>Festivales Gastronómicos</li>
-												<li>Festivales del tequila y mezcal</li>
-												<li>Fuegos pirotécnicos</li>
-											</ul>
-										</p>
 								</div>
 							</div>
 						</div>				
@@ -413,11 +403,11 @@
 										</div>
 										<div class="content-box">
 											<div class="icon">
-												<a href="our-shop.html"><i class="fal fa-arrow-right"></i></a>
+												<a href="#"><i class="fal fa-arrow-right"></i></a>
 											</div>
 											<div class="content">
 												<h4 class="heading letter-spacing-1">
-													<a href="our-shop.html">Festival Taurino</a>
+													<a href="#" data-bs-toggle="modal" data-bs-target="#ftaurino">Festival Taurino</a>
 												</h4>
 												<div class="sub-heading">
 													Festival Taurino
@@ -435,14 +425,14 @@
 										</div>
 										<div class="content-box">
 											<div class="icon">
-												<a href="our-shop.html"><i class="fal fa-arrow-right"></i></a>
+												<a href="#"><i class="fal fa-arrow-right"></i></a>
 											</div>
 											<div class="content">
 												<h4 class="heading letter-spacing-1">
-													<a href="our-shop.html">Family Package Dish</a>
+													<a href="#" data-bs-toggle="modal" data-bs-target="#fmaridaje">Festival de vino y maridaje</a>
 												</h4>
 												<div class="sub-heading">
-													Popular Food Package
+													Festival de vino y maridaje
 												</div>
 											</div>
 										</div>
@@ -457,14 +447,16 @@
 										</div>
 										<div class="content-box">
 											<div class="icon">
-												<a href="our-shop.html"><i class="fal fa-arrow-right"></i></a>
+												<a href="#"><i class="fal fa-arrow-right"></i></a>
 											</div>
 											<div class="content">
 												<h4 class="heading letter-spacing-1">
-													<a href="our-shop.html">Family Package Dish</a>
+													<a href="#" data-bs-toggle="modal" data-bs-target="#fartesanias">Exhibición y venta de Artesanías
+														Zacatecanas</a>
 												</h4>
 												<div class="sub-heading">
-													Popular Food Package
+													Exhibición y venta de Artesanías
+													Zacatecanas
 												</div>
 											</div>
 										</div>
@@ -479,14 +471,14 @@
 										</div>
 										<div class="content-box">
 											<div class="icon">
-												<a href="our-shop.html"><i class="fal fa-arrow-right"></i></a>
+												<a href="#"><i class="fal fa-arrow-right"></i></a>
 											</div>
 											<div class="content">
 												<h4 class="heading letter-spacing-1">
-													<a href="our-shop.html">Family Package Dish</a>
+													<a href="#" data-bs-toggle="modal" data-bs-target="#fairelibre">Eventos al aire libre</a>
 												</h4>
 												<div class="sub-heading">
-													Popular Food Package
+													Eventos al aire libre
 												</div>
 											</div>
 										</div>
@@ -501,14 +493,14 @@
 										</div>
 										<div class="content-box">
 											<div class="icon">
-												<a href="our-shop.html"><i class="fal fa-arrow-right"></i></a>
+												<a href="#"><i class="fal fa-arrow-right"></i></a>
 											</div>
 											<div class="content">
 												<h4 class="heading letter-spacing-1">
-													<a href="our-shop.html">Family Package Dish</a>
+													<a href="#" data-bs-toggle="modal" data-bs-target="#fmusica">Música (flamenco, mariachi, etc.)</a>
 												</h4>
 												<div class="sub-heading">
-													Popular Food Package
+													Música (flamenco, mariachi, etc.)
 												</div>
 											</div>
 										</div>
@@ -517,385 +509,301 @@
 							</div>
 							<div class="col-box col-50">
 								<div class="gallery-box h-100 wow zoomIn animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
+									<div class="hover-effect active h-100">
+										<div class="image h-100">
+											<img src="img/img01.jpg" alt="">
+										</div>
+										<div class="content-box">
+											<div class="icon">
+												<a href="#"><i class="fal fa-arrow-right"></i></a>
+											</div>
+											<div class="content">
+												<h4 class="heading letter-spacing-1">
+													<a href="#" data-bs-toggle="modal" data-bs-target="#fgastronomico">Festivales Gastronómicos</a>
+												</h4>
+												<div class="sub-heading">
+													Festivales Gastronómicos
+												</div>
+											</div>
+										</div>
+									</div>
+								</div> 
+							</div>
+																<!--  -->
+																<div class="col-box col-50">
+								<div class="gallery-box h-100 wow zoomIn animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
+									<div class="hover-effect active h-100">
+										<div class="image h-100">
+											<img src="img/img01.jpg" alt="">
+										</div>
+										<div class="content-box">
+											<div class="icon">
+												<a href="#"><i class="fal fa-arrow-right"></i></a>
+											</div>
+											<div class="content">
+												<h4 class="heading letter-spacing-1">
+													<a href="#ftequila">Festivales del tequila y mezcal</a>
+												</h4>
+												<div class="sub-heading">
+													Festivales del tequila y mezcal
+												</div>
+											</div>
+										</div>
+									</div>
+								</div> 
+							</div>
+							<div class="col-box col-25">
+								<div class="gallery-box  h-100 wow zoomIn animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
 									<div class="hover-effect h-100">
 										<div class="image h-100">
 											<img src="img/img01.jpg" alt="">
 										</div>
 										<div class="content-box">
 											<div class="icon">
-												<a href="our-shop.html"><i class="fal fa-arrow-right"></i></a>
+												<a href="#"><i class="fal fa-arrow-right"></i></a>
 											</div>
 											<div class="content">
 												<h4 class="heading letter-spacing-1">
-													<a href="our-shop.html">Family Package Dish</a>
+													<a href="#" data-bs-toggle="modal" data-bs-target="#fpirotecnia">Fuegos pirotécnicos</a>
 												</h4>
 												<div class="sub-heading">
-													Popular Food Package
+													Fuegos pirotécnicos
 												</div>
 											</div>
 										</div>
 									</div>
 								</div> 
-							</div>									
+							</div>
+							<div class="col-box col-25">
+								<div class="gallery-box h-100 wow zoomIn animated" data-wow-delay="0.3ms" data-wow-duration="1000ms">
+									<div class="hover-effect h-100">
+										<div class="image h-100">
+											<img src="img/img01.jpg" alt="">
+										</div>
+										<div class="content-box">
+											<div class="icon">
+												<a href="#"><i class="fal fa-arrow-right"></i></a>
+											</div>
+											<div class="content">
+												<h4 class="heading letter-spacing-1">
+													<a href="#" data-bs-toggle="modal" data-bs-target="#fmaseventos">Más eventos...</a>
+												</h4>
+												<div class="sub-heading">
+													Más eventos...
+												</div>
+											</div>
+										</div>
+									</div>
+								</div> 
+							</div>
+								
 					</div>
-					<div class="flat-button box-center">
+
+					
+
+					<!-- <div class="flat-button box-center">
 						<a href="our-shop.html" class="tf-button color-style3">view more photos</a>
-					</div>	
+					</div>	 -->
 				</div>
 			</section>
 			<!-- Gallery -->
 
-			<!-- our menu -->
-			<section class="tf-section wrap-our-menu">
-				<div class="overlay-bg-style01"></div>
-				<img class="imgbg1" src="assets/img/our-menu/img2bg-our-menu.jpg" alt="images">
-				<img class="imgbg2" src="assets/img/our-menu/imgbg-our-menu.jpg" alt="images">
-				<div class="container-fluid">
+			<!-- festivales -->
+			<section class="mt-5 wrap-about-us">
+				<img class="iconbg_about" src="assets/img/about-us/iconbgabout.png" alt="images">
+				<div class="container-fluid cleafix">
 					<div class="row">
 						<div class="col-md-12 cleafix">
 							<div class="content-heading-wrap">
 								<div class="tf-heading-bg color-style1 cleafix">
-									<h2 class="heading-bg-style">our menu</h2>
+									<h2 class="heading-bg-style">Eventos</h2>
 								</div>
 								<div class="tf-heading text-center">
-									<h4 class="tf-title wow zoomIn animated" data-wow-delay="0.3ms" data-wow-duration="1200ms">Try Our Special Offers</h4>
-									<p class="tf-sub-heading">Best foods for you & family</p>
+									<h4 class="tf-title wow zoomIn animated" data-wow-delay="0.3ms" data-wow-duration="1200ms">Festival taurino</h4>
+									<p class="tf-sub-heading texto">Cortijo San Sebastián</p>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-6">
-							<div class="our-menu-box mb">
-								<div class="our-menu-item active wow fadeInUp animated" data-wow-delay="0.2ms" data-wow-duration="1200ms">
-									<div class="content-menu-item">
-										<h4 class="heading">Raw Scallops From Erquy</h4>
-										<div class="sub-heading">Candied Jerusalem artichokes, truffle</div>
-									</div>
-									<div class="pricing-menu-item"><span>$89</span></div>
-								</div>
+							<div class="tf-img-about wow fadeIn animated" data-wow-delay="0.3ms" data-wow-duration="1500ms">
+								<img src="img/img01.jpg" alt="">
 							</div>
-							<div class="our-menu-box mb">
-								<div class="our-menu-item wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1300ms">
-									<div class="content-menu-item">
-										<h4 class="heading">Celeriac and Truffle Ravioli</h4>
-										<div class="sub-heading">Roasted langoustine, consommé</div>
-									</div>
-									<div class="pricing-menu-item"><span>$89</span></div>
-								</div>
-							</div>
-							
-							<div class="our-menu-box mb">
-								<div class="our-menu-item wow fadeInUp animated" data-wow-delay="0.4ms" data-wow-duration="1400ms">
-									<div class="content-menu-item">
-										<h4 class="heading">Cod Filet Cooked on One Side</h4>
-										<div class="sub-heading">Chorizo, chickpea espuma, pequillos</div>
-									</div>
-									<div class="pricing-menu-item"><span>$89</span></div>
-								</div>
-							</div>
-							
-							<div class="our-menu-box mb">
-								<div class="our-menu-item wow fadeInUp animated" data-wow-delay="0.5ms" data-wow-duration="1500ms">
-									<div class="content-menu-item">
-										<h4 class="heading">Sea Bass Ceviche</h4>
-										<div class="sub-heading">Avocado, butternut, lime</div>
-									</div>
-									<div class="pricing-menu-item"><span>$89</span></div>
-								</div>
-							</div>
-							
 						</div>
-						<div class="col-md-6">							
-							<div class="our-menu-box mb">
-								<div class="our-menu-item wow fadeInUp animated" data-wow-delay="0.2ms" data-wow-duration="1200ms">
-									<div class="content-menu-item">
-										<h4 class="heading">Corrèze Pan-seared Veal Liver</h4>
-										<div class="sub-heading">Olive oil mashed potato, onion jus</div>
-									</div>
-									<div class="pricing-menu-item"><span>$89</span></div>
-								</div>
-							</div>							
-							<div class="our-menu-box mb">
-								<div class="our-menu-item wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1300ms">
-									<div class="content-menu-item">
-										<h4 class="heading">Grilled Veal Filet Mignon</h4>
-										<div class="sub-heading">Pumpkin, endives with hazelnuts</div>
-									</div>
-									<div class="pricing-menu-item"><span>$89</span></div>
-								</div>
-							</div>							
-							<div class="our-menu-box mb">
-								<div class="our-menu-item wow fadeInUp animated" data-wow-delay="0.4ms" data-wow-duration="1400ms">
-									<div class="content-menu-item">
-										<h4 class="heading">Tender Octopus and Fennel</h4>
-										<div class="sub-heading">Citrus, wild rocket condiment</div>
-									</div>
-									<div class="pricing-menu-item"><span>$89</span></div>
-								</div>
-							</div>							
-							<div class="our-menu-box mb">
-								<div class="our-menu-item wow fadeInUp animated" data-wow-delay="0.5ms" data-wow-duration="1500ms">
-									<div class="content-menu-item">
-										<h4 class="heading">Viennese Veal Cutlet</h4>
-										<div class="sub-heading">Ricotta and spinach gnocchi, Caccio de Pepe</div>
-									</div>
-									<div class="pricing-menu-item"><span>$89</span></div>
+						<div class="col-md-6 no-pd-left">
+							<div class="content-about-us">
+								<p>Texto pendiente</p>
+								<p>Texto pendiente</p>
+								<p>Texto pendiente</p>
+								<p>Texto pendiente</p>
+								<p>Texto pendiente</p>
+								<p>Texto pendiente</p>
+								<div class="flat-button flat-button-style2">
+									<!-- <a href="about.html" class="tf-button color-style1">discover more</a> -->
 								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-			</section>
-
-			<!-- our Chefs -->
-			<section class="tf-section wrap-our-chefs bg-wrap-style2">
-				<div class="container-fluid">
 					<div class="row">
 						<div class="col-md-12 cleafix">
 							<div class="content-heading-wrap">
-								<div class="tf-heading-bg cleafix">
-									<h2 class="heading-bg-style ">our Chefs</h2>
+								<div class="tf-heading-bg color-style1 cleafix">
+									<h2 class="heading-bg-style">Eventos</h2>
 								</div>
 								<div class="tf-heading text-center">
-									<h4 class="tf-title color-white wow zoomIn animated" data-wow-delay="0.3ms" data-wow-duration="1200ms">meet professional Chefs</h4>
-									<p class="tf-sub-heading color-white">Best foods for you & family</p>
+									<h4 class="tf-title wow zoomIn animated" data-wow-delay="0.3ms" data-wow-duration="1200ms">Festival del mezcal</h4>
+									<p class="tf-sub-heading texto">Cortijo San Sebastián</p>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-3">
-							<div class="team-box wow fadeInUp animated" data-wow-delay="0.2ms" data-wow-duration="1500ms">
-								<div class="team-hover">
-									<div class="image">
-										<img src="assets/img/team/img1team.jpg" alt="">
-									</div>
-									<div class="content">
-										<h6 class="heading color-white">Thomas A. Peachey
-										</h6>
-										<div class="sub-heading color-white">
-											Main Chefs
-										</div>
-										<ul class="widget widget_socials">
-											<li><a href="#" class="active"><i class="fab fa-facebook-f"></i></a></li>
-											<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-											<li><a href="#"><i class="fab fa-youtube"></i></a></li>
-											<li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>		
-						<div class="col-md-3">
-							<div class="team-box wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1500ms">
-								<div class="team-hover">
-									<div class="image">
-										<img src="assets/img/team/img2team.jpg" alt="">
-									</div>
-									<div class="content">
-										<h6 class="heading color-white">Thomas A. Peachey
-										</h6>
-										<div class="sub-heading color-white">
-											Main Chefs
-										</div>
-										<ul class="widget widget_socials">
-											<li><a href="#" class="active"><i class="fab fa-facebook-f"></i></a></li>
-											<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-											<li><a href="#"><i class="fab fa-youtube"></i></a></li>
-											<li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>	
-						<div class="col-md-3">
-							<div class="team-box wow fadeInUp animated" data-wow-delay="0.2ms" data-wow-duration="1500ms">
-								<div class="team-hover">
-									<div class="image">
-										<img src="assets/img/team/img3team.jpg" alt="">
-									</div>
-									<div class="content">
-										<h6 class="heading color-white">Thomas A. Peachey
-										</h6>
-										<div class="sub-heading color-white">
-											Main Chefs
-										</div>
-										<ul class="widget widget_socials">
-											<li><a href="#" class="active"><i class="fab fa-facebook-f"></i></a></li>
-											<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-											<li><a href="#"><i class="fab fa-youtube"></i></a></li>
-											<li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-										</ul>
-									</div>
-								</div>
-							</div>
-						</div>	
-						<div class="col-md-3">
-							<div class="team-box wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1500ms">
-								<div class="team-hover">
-									<div class="image">
-										<img src="assets/img/team/img4team.jpg" alt="">
-									</div>
-									<div class="content">
-										<h6 class="heading color-white">Thomas A. Peachey
-										</h6>
-										<div class="sub-heading color-white">
-											Main Chefs
-										</div>
-										<ul class="widget widget_socials">
-											<li class="delay1"><a href="#" class="active"><i class="fab fa-facebook-f"></i></a></li>
-											<li class="delay2"><a href="#"><i class="fab fa-twitter"></i></a></li>
-											<li class="delay3"><a href="#"><i class="fab fa-youtube"></i></a></li>
-											<li class="delay4"><a href="#"><i class="fab fa-linkedin"></i></a></li>
-										</ul>										
-									</div>
+						<!-- inicio -->
+						<div class="col-md-6 no-pd-left">
+							<div class="content-about-us">
+								<p>Es una experiencia única que
+									celebra la cultura, la historia y los
+									sabores de México. 
+									</p>
+								<p>Es un tributo a
+									los artesanos que han mantenido
+									viva esta tradición, y una invitación
+									para que descubras, aprendas y te
+									enamores de la auténtica esencia
+									del mezcal.</p>
+								<div class="flat-button flat-button-style2">
+									<!-- <a href="about.html" class="tf-button color-style1">discover more</a> -->
 								</div>
 							</div>
 						</div>
-					</div>
-	
-				</div>
-			</section>
-			<!-- our Chefs -->
-
-			<section class="counter-chefs">
-				<div class="container-fluid">
-					<div class="row">
-						<div class="wrap-counter wow fadeInUp animated" data-wow-delay="0.3ms" data-wow-duration="1500ms">
-							<div class="overlay-counter"></div>
-							<div class="col-box col-25">
-								<div class="box box-countter-chefs text-center padding-right-24">
-									<div class="wrap-icon">	
-										<i class="flaticon-chef"></i>								
-									</div>
-									<div class="countter-box">									
-										<h6 class="heading">Professional Chefs</h6>
-										<span class="number" data-from="0" data-to="309" data-speed="2500" data-inviewport="yes">309</span>
-									</div>
-								</div>
-							</div>
-							<div class="col-box col-25">
-								<div class="box box-countter-chefs text-center padding-right-38">
-									<div class="wrap-icon">	
-										<i class="flaticon-fast-food"></i>								
-									</div>
-									<div class="countter-box">									
-										<h6 class="heading">Items Of Foods</h6>
-										<span class="number"  data-from="0" data-to="453" data-speed="2500" data-inviewport="yes">453</span>
-									</div>
-								</div>
-							</div>
-							<div class="col-box col-25">
-								<div class="box box-countter-chefs text-center padding-right-38">
-									<div class="wrap-icon">	
-										<i class="flaticon-fork"></i>								
-									</div>
-									<div class="countter-box">									
-										<h6 class="heading">Years Of Experience</h6>
-										<span class="number" data-from="0" data-to="64" data-speed="2500" data-inviewport="yes">64</span><span class="sub-number">+</span>
-									</div>
-								</div>
-							</div>
-							<div class="col-box col-25 no-pd-right">
-								<div class="box box-countter-chefs text-center padding-left-9">
-									<div class="wrap-icon">	
-										<i class="flaticon-pizza-1"></i>								
-									</div>
-									<div class="countter-box">									
-										<h6 class="heading">Saticfied Customers</h6>
-										<span class="number" data-from="0" data-to="302" data-speed="2500" data-inviewport="yes">302</span>
-									</div>
-								</div>
+						<div class="col-md-6">
+							<div class="tf-img-about wow fadeIn animated" data-wow-delay="0.3ms" data-wow-duration="1500ms">
+								<img src="img/cortijo_festivales_02.png" alt="">
 							</div>
 						</div>
-					</div>
-				</div>
-			</section>
-			
-			<!-- booking -->
-			<section class="tf-section wrap-booking">
-				<img class="icon-style1" src="assets/img/booking/iconbg1.png" alt="images">
-				<img class="icon-style2" src="assets/img/booking/iconbg2.png" alt="images">
-				<div class="container-fluid">
-					<div class="row">
+						<!-- termina -->
+						<!-- inicio -->
 						<div class="col-md-12 cleafix">
 							<div class="content-heading-wrap">
-								<div class="tf-heading-bg cleafix">
-									<h2 class="heading-bg-style ">booking</h2>
+								<div class="tf-heading-bg color-style1 cleafix">
+									<h2 class="heading-bg-style">Eventos</h2>
 								</div>
 								<div class="tf-heading text-center">
-									<h4 class="tf-title wow zoomIn animated" data-wow-delay="0.3ms" data-wow-duration="1200ms">booking your favorite table</h4>
-									<p class="tf-sub-heading">Best foods for you & family</p>
+									<h4 class="tf-title wow zoomIn animated" data-wow-delay="0.3ms" data-wow-duration="1200ms">Eventos al aire libre</h4>
+									<p class="tf-sub-heading texto">Cortijo San Sebastián</p>
 								</div>
 							</div>
 						</div>
+						<div class="col-md-6 no-pd-left">
+							<div class="content-about-us">
+								<p>Ofrecemos eventos al aire libre para todos
+									los gustos, desde festivales gastronómicos
+									hasta talleres para niños. Disfruta de música
+									en vivo, conciertos, bailes folclóricos y
+									exhibiciones de artesanía en un entorno
+									natural y encantador.</p>
+								<div class="flat-button flat-button-style2">
+									<!-- <a href="about.html" class="tf-button color-style1">discover more</a> -->
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="tf-img-about wow fadeIn animated" data-wow-delay="0.3ms" data-wow-duration="1500ms">
+								<img src="img/cortijo_festivales_03.png" alt="">
+							</div>
+						</div>
+						<!-- termina -->
+						<!-- inicio -->
 						<div class="col-md-12 cleafix">
-							<div class="image-form-booking flex">
-								<div class="image wow slideInLeft animated" data-wow-delay="0.3ms" data-wow-duration="1500ms">
-									<img src="assets/img/booking/img01booking.jpg" alt="images">
+							<div class="content-heading-wrap">
+								<div class="tf-heading-bg color-style1 cleafix">
+									<h2 class="heading-bg-style">Eventos</h2>
 								</div>
-								<div class="wrap-form bg-style2 wow slideInRight animated" data-wow-delay="0.3ms" data-wow-duration="1500ms">
-									<h5 class="heading color-style3 margin-bt-1">
-										Booking Table In Online
-									</h5>
-									<div class="sub-heading color-style2 margin-bt30">
-										Fillup the input options
-									</div>
-									<form action="contact/contact-process.php" method="post" id="commentform" class="comment-form" novalidate="novalidate">
-										<fieldset class="select">
-											<select name="persons" id="persons" required>                       
-												<option value="">Persons</option>
-												<option value="Persons 01">01 Persons</option>
-												<option value="Persons 01">02 Persons</option>
-												<option value="Persons 01">05 Persons</option>
-												<option value="Persons 01">10 Persons</option>
-											</select>
-										</fieldset>
-										<fieldset class="email-wrap">
-											<input type="email" id="email" placeholder="Email Address" class="tb-my-input" name="email" tabindex="1" value="" aria-required="true" required="">
-										</fieldset>
-										<fieldset class="select">
-											<select name="date-booking" id="date-booking" required>                       
-												<option value="">Choose Date</option>
-												<option value="Persons 01">28//07/2021</option>
-												<option value="Persons 01">02//8/2021</option>
-											</select>
-										</fieldset>
-										<fieldset class="select">
-											<select name="time-booking" id="time-booking" required>                       
-												<option value="">Select Time</option>
-												<option value="Persons 01">15h-17h</option>
-												<option value="Persons 01">16h30-17h30</option>
-											</select>
-										</fieldset>
-										<fieldset class="phone-wrap">
-											<input type="number" id="phone" placeholder="Phone Number" class="tb-my-input" name="phone" tabindex="2" value="" aria-required="true" required="">
-										</fieldset>
-										<div class="btn-submit ">
-											<button id="comment-reply" name="submit" class="tf-button color-text color-style1" type="submit">
-												booking now
-											</button>
-										</div>	
-									</form>
+								<div class="tf-heading text-center">
+									<h4 class="tf-title wow zoomIn animated" data-wow-delay="0.3ms" data-wow-duration="1200ms">Fiesta
+										Flamenca</h4>
+									<p class="tf-sub-heading texto">Cortijo San Sebastián</p>
 								</div>
 							</div>
-						
 						</div>
+						<div class="col-md-6 no-pd-left">
+							<div class="content-about-us">
+								<p>Un estallido de pasión, ritmo y
+									color, donde la danza, la
+									música y la gastronomía
+									española cobran vida. Únete a
+									nosotros para un viaje
+									inolvidable al corazón del
+									flamenco. ¡Vive la magia, vive
+									la Fiesta Flamenca!</p>
+								<div class="flat-button flat-button-style2">
+									<!-- <a href="about.html" class="tf-button color-style1">discover more</a> -->
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="tf-img-about wow fadeIn animated" data-wow-delay="0.3ms" data-wow-duration="1500ms">
+								<img src="img/cortijo_festivales_05.png" alt="">
+							</div>
+						</div>
+						<!-- termina -->
+						<!-- inicio -->
+						<div class="col-md-12 cleafix mt-3">
+							<div class="content-heading-wrap">
+								<div class="tf-heading-bg color-style1 cleafix">
+									<h2 class="heading-bg-style">Eventos</h2>
+								</div>
+								<div class="tf-heading text-center">
+									<h4 class="tf-title wow zoomIn animated" data-wow-delay="0.3ms" data-wow-duration="1200ms">Fiesta
+										Mexicana</h4>
+									<p class="tf-sub-heading texto">Cortijo San Sebastián</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 no-pd-left">
+							<div class="content-about-us">
+								<p>Embárcate en una colorida
+									celebración llena de música,
+									baile y sabores únicos.
+									Experimenta la auténtica
+									cultura mexicana, desde los
+									mariachis hasta la charreria.
+									¡Prepárate para una experiencia
+									de alegría y tradición en la
+									Fiesta Mexicana!</p>
+								<div class="flat-button flat-button-style2">
+									<!-- <a href="about.html" class="tf-button color-style1">discover more</a> -->
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="tf-img-about wow fadeIn animated" data-wow-delay="0.3ms" data-wow-duration="1500ms">
+								<img src="img/cortijo_festivales_07.png" alt="">
+							</div>
+						</div>
+						<!-- termina -->
 					</div>
 				</div>
 			</section>
+			<!-- festivales -->
+
+			<style>
+				#colorF{
+					color: aliceblue;
+				}
+			</style>
 			
 			<!-- TESTIMONIALS -->
 			<section class="tf-section wrap-testimonials bg-style2">
-				<img class="icon-bg1" src="assets/img/Testimonial/iconbg1.png" alt="images">
-				<img class="icon-bg2" src="assets/img/Testimonial/iconbg2.png" alt="images">
+				<img class="icon-bg1" src="img/logo.png" width="10%" alt="images">
+				<img class="icon-bg2" src="img/logo.png" width="10%" alt="images">
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-md-12 cleafix">
 							<div class="content-heading-wrap">
 								<div class="tf-heading-bg cleafix">
-									<h2 class="heading-bg-style ">reviews</h2>
+									<h2 class="heading-bg-style">Terraza</h2>
 								</div>
 								<div class="tf-heading text-center">
-									<h4 class="tf-title wow zoomIn animated" data-wow-delay="0.3ms" data-wow-duration="1200ms">Our Customers fedback</h4>
-									<p class="tf-sub-heading">Best foods for you & family</p>
+									<h4 class="tf-title wow zoomIn animated" data-wow-delay="0.3ms" data-wow-duration="1200ms" id="">Terraza</h4>
+									<p class="tf-sub-heading texto">Cortijo San Sebastián</p>
 								</div>
 							</div>
 						</div>
@@ -905,30 +813,15 @@
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
                                             <div class="slider-item testimonials-style">
-                                                <span class="flaticon-quotation"></span>
-                                                <p>Sed ut perspiciatis unde omnisiste 
-                                                    natus error voluptate santium dolorem
-                                                    laudantium, totam rem aperiam eaque 
-                                                    desa quae abillo inventore veritatis et quasi architecto beatae vitae</p>
-                                                <div class="name-position">
-                                                    Lawrence L. Jones, Developer
-                                                </div>
+                                               </span>
+                                                <p>Relájate en nuestra terraza-bar con vistas panorámicas mientras disfrutas de cócteles de bienvenida. Celebra momentos especiales con amigos y familiares en un entorno exclusivo y encantador.
+												</p>
+                                               
                                             </div><!-- item-->
                                         </div>
-										<div class="swiper-slide">
-                                            <div class="slider-item testimonials-style">
-                                                <span class="flaticon-quotation"></span>
-                                                <p>Sed ut perspiciatis unde omnisiste 
-                                                    natus error voluptate santium dolorem
-                                                    laudantium, totam rem aperiam eaque 
-                                                    desa quae abillo inventore veritatis et quasi architecto beatae vitae</p>
-                                                <div class="name-position">
-                                                    Lawrence L. Jones, Developer
-                                                </div>
-                                            </div><!-- item-->
-                                        </div>
+										
                                     </div>
-                                    <div class="swiper-pagination"></div>
+                                    <!-- <div class="swiper-pagination"></div> -->
                                 </div>
 						
 							</div>
@@ -936,7 +829,199 @@
 						<div class="col-md-6">
 							<div class="image-testimonials">
 								<div class="image wow fadeIn animated" data-wow-delay="0.3ms" data-wow-duration="1500ms">
-									<img src="assets/img/Testimonial/imgtestimonialhome1.jpg" alt="images">
+									<img src="img/cortijo_previos_016.png" alt="images">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- TESTIMONIALS -->
+			<!-- TESTIMONIALS -->
+			<section class="tf-section wrap-testimonials bg-style3">
+				<img class="icon-bg1" src="img/logo.png" width="10%" alt="images">
+				<img class="icon-bg2" src="img/logo.png" width="10%" alt="images">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-12 cleafix">
+							<div class="content-heading-wrap">
+								<div class="tf-heading-bg cleafix">
+									<h2 class="heading-bg-style ">Eventos</h2>
+								</div>
+								<div class="tf-heading text-center">
+									<h4 class="tf-title wow zoomIn animated" id="colorF" data-wow-delay="0.3ms" data-wow-duration="1200ms">Eventos Especiales</h4>
+									<p class="tf-sub-heading texto">Cortijo San Sebastián</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="wrap-testimonials-slider">
+                                <div class="swiper-container carousel">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="slider-item testimonials-style">
+                                               </span>
+                                                <p  id="colorF">Desde bodas hasta fiestas privadas y despedidas de soltero, Cortijo San Sebastián es el escenario ideal para tus eventos más memorables. Con un ambiente único y servicios excepcionales, tus celebraciones serán inolvidables.
+												</p>
+                                               
+                                            </div><!-- item-->
+                                        </div>
+										
+                                    </div>
+                                    <!-- <div class="swiper-pagination"></div> -->
+                                </div>
+						
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="image-testimonials">
+								<div class="image wow fadeIn animated" data-wow-delay="0.3ms" data-wow-duration="1500ms">
+									<img src="img/cortijo_previos_017.png" alt="images">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- TESTIMONIALS -->
+			<!-- TESTIMONIALS -->
+			<section class="tf-section wrap-testimonials bg-style2">
+				<img class="icon-bg1" src="img/logo.png" width="10%" alt="images">
+				<img class="icon-bg2" src="img/logo.png" width="10%" alt="images">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-12 cleafix">
+							<div class="content-heading-wrap">
+								<div class="tf-heading-bg cleafix">
+									<h2 class="heading-bg-style">Privacidad</h2>
+								</div>
+								<div class="tf-heading text-center">
+									<h4 class="tf-title wow zoomIn animated" data-wow-delay="0.3ms" data-wow-duration="1200ms" id="">Privacidad y exclusividad en nuestra área privada
+									</h4>
+									<p class="tf-sub-heading texto">Cortijo San Sebastián</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="wrap-testimonials-slider">
+                                <div class="swiper-container carousel">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="slider-item testimonials-style">
+                                               </span>
+                                                <p>Nuestro espacio privado cuenta con una cabaña equipada, terraza y jardín para ofrecer un servicio más especializado y personalizado. Experimenta la mejor atención y servicio en un entorno íntimo y exclusivo.
+
+												</p>
+                                               
+                                            </div><!-- item-->
+                                        </div>
+										
+                                    </div>
+                                    <!-- <div class="swiper-pagination"></div> -->
+                                </div>
+						
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="image-testimonials">
+								<div class="image wow fadeIn animated" data-wow-delay="0.3ms" data-wow-duration="1500ms">
+									<img src="img/cortijo_previos_05.jpg" alt="images">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- TESTIMONIALS -->
+			<!-- TESTIMONIALS -->
+			<section class="tf-section wrap-testimonials bg-style3">
+				<img class="icon-bg1" src="img/logo.png" width="10%" alt="images">
+				<img class="icon-bg2" src="img/logo.png" width="10%" alt="images">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-12 cleafix">
+							<div class="content-heading-wrap">
+								<div class="tf-heading-bg cleafix">
+									<h2 class="heading-bg-style ">Eventos</h2>
+								</div>
+								<div class="tf-heading text-center">
+									<h4 class="tf-title wow zoomIn animated" id="colorF" data-wow-delay="0.3ms" data-wow-duration="1200ms">Eventos Especiales</h4>
+									<p class="tf-sub-heading texto">Cortijo San Sebastián</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="wrap-testimonials-slider">
+                                <div class="swiper-container carousel">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="slider-item testimonials-style">
+                                               </span>
+                                                <p  id="colorF">Desde bodas hasta fiestas privadas y despedidas de soltero, Cortijo San Sebastián es el escenario ideal para tus eventos más memorables. Con un ambiente único y servicios excepcionales, tus celebraciones serán inolvidables.
+												</p>
+                                               
+                                            </div><!-- item-->
+                                        </div>
+										
+                                    </div>
+                                    <!-- <div class="swiper-pagination"></div> -->
+                                </div>
+						
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="image-testimonials">
+								<div class="image wow fadeIn animated" data-wow-delay="0.3ms" data-wow-duration="1500ms">
+									<img src="img/cortijo_previos_017.png" alt="images">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- TESTIMONIALS -->
+			<!-- TESTIMONIALS -->
+			<section class="tf-section wrap-testimonials bg-style2">
+				<img class="icon-bg1" src="img/logo.png" width="10%" alt="images">
+				<img class="icon-bg2" src="img/logo.png" width="10%" alt="images">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-12 cleafix">
+							<div class="content-heading-wrap">
+								<div class="tf-heading-bg cleafix">
+									<h2 class="heading-bg-style">Privacidad</h2>
+								</div>
+								<div class="tf-heading text-center">
+									<h4 class="tf-title wow zoomIn animated" data-wow-delay="0.3ms" data-wow-duration="1200ms" id="">Privacidad y exclusividad en nuestra área privada
+									</h4>
+									<p class="tf-sub-heading texto">Cortijo San Sebastián</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="wrap-testimonials-slider">
+                                <div class="swiper-container carousel">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="slider-item testimonials-style">
+                                               </span>
+                                                <p>Nuestro espacio privado cuenta con una cabaña equipada, terraza y jardín para ofrecer un servicio más especializado y personalizado. Experimenta la mejor atención y servicio en un entorno íntimo y exclusivo.
+
+												</p>
+                                               
+                                            </div><!-- item-->
+                                        </div>
+										
+                                    </div>
+                                    <!-- <div class="swiper-pagination"></div> -->
+                                </div>
+						
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="image-testimonials">
+								<div class="image wow fadeIn animated" data-wow-delay="0.3ms" data-wow-duration="1500ms">
+									<img src="img/cortijo_previos_018.png" alt="images">
 								</div>
 							</div>
 						</div>
@@ -951,89 +1036,15 @@
 						<div class="col-md-12 cleafix">
 							<div class="content-heading-wrap">
 								<div class="tf-heading-bg cleafix">
-									<h2 class="heading-bg-style ">Our blog</h2>
+									<h2 class="heading-bg-style ">patrocinadores</h2>
 								</div>
 								<div class="tf-heading text-center">
-									<h4 class="tf-title wow zoomIn animated" data-wow-delay="0.3ms" data-wow-duration="1200ms">latest news & blog</h4>
-									<p class="tf-sub-heading">Best foods for you & family</p>
+									<h4 class="tf-title wow zoomIn animated" data-wow-delay="0.3ms" data-wow-duration="1200ms">Patrocinadores</h4>
+									<p class="tf-sub-heading texto">Cortijo San Sebastián</p>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-12">
-                            <div class="swiper-container carousel-3">
-                                <div class="swiper-wrapper">
-                                    <div class="swiper-slide">
-                                        <div class="slider-item ">
-                                            <div class="post wow fadeIn animated" data-wow-delay="0.3ms" data-wow-duration="1500ms">
-                                                <div class="featured-post">
-                                                    <img src="assets/img/blog/img1blohhome01.jpg" alt="images">
-                                                </div>
-                                                <div class="content-post bg-blog">
-                                                    <ul class="meta-post">
-                                                                <li class="author"><a href="shop-details.html">By Williamson</a></li>
-                                                                <li class="date"><a href="shop-details.html">25 Aug 2021</a></li>
-                                                    </ul>
-                                                    <h6 class="title">
-                                                        <a href="shop-details.html">
-                                                            How To Run A UX Audit For Major EdTech Platform Case Study
-                                                        </a>
-                                                    </h6>
-                                                    <div class="btn-blog">
-                                                        <a href="shop-details.html" class="tf-button color-style color-style4">read more</a>
-                                                    </div>
-                                                </div>
-                                            </div>			
-                                        </div><!-- item-->                              
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="slider-item ">
-                                            <div class="post wow fadeIn animated" data-wow-delay="0.3ms" data-wow-duration="1500ms">
-                                                <div class="featured-post">
-                                                    <img src="assets/img/blog/img2blohhome01.jpg" alt="images">
-                                                </div>
-                                                <div class="content-post bg-blog">
-                                                    <ul class="meta-post">
-                                                                <li class="author"><a href="shop-details.html">By Williamson</a></li>
-                                                                <li class="date"><a href="shop-details.html">25 Aug 2021</a></li>
-                                                    </ul>
-                                                    <h6 class="title">
-                                                        <a href="shop-details.html">
-                                                            Designing With Code A Modern Approach To Development
-                                                        </a>
-                                                    </h6>
-                                                    <div class="btn-blog active">
-                                                        <a href="shop-details.html" class="tf-button color-style color-style4">read more</a>
-                                                    </div>
-                                                </div>
-                                            </div>			
-                                        </div><!-- item-->                               
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="slider-item ">
-                                            <div class="post wow fadeIn animated" data-wow-delay="0.3ms" data-wow-duration="1500ms">
-                                                <div class="featured-post">
-                                                    <img src="assets/img/blog/img3blohhome01.jpg" alt="images">
-                                                </div>
-                                                <div class="content-post bg-blog">
-                                                    <ul class="meta-post">
-                                                                <li class="author"><a href="shop-details.html">By Williamson</a></li>
-                                                                <li class="date"><a href="shop-details.html">25 Aug 2021</a></li>
-                                                    </ul>
-                                                    <h6 class="title">
-                                                        <a href="shop-details.html">
-                                                            How To Run A UX Audit For Major EdTech Platform Case Study
-                                                        </a>
-                                                    </h6>
-                                                    <div class="btn-blog">
-                                                        <a href="shop-details.html" class="tf-button color-style color-style4">read more</a>
-                                                    </div>
-                                                </div>
-                                            </div>			
-                                        </div><!-- item-->                               
-                                    </div>
-                                </div>
-						    </div>
-					    </div>
+						
                     </div>    
 				</div>
 			</section>
@@ -1194,4 +1205,177 @@
 <script src="assets/js/swiper.js"></script>
 </body>
 </html>
+
+<!-- Modal -->
+
+<div class="modal fade" id="ftaurino" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <h1 class="modal-title" id="exampleModalLabel">Festival taurino</h1>
+		  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		</div>
+		<div class="modal-body">
+			Aprende a maridar cócteles,
+			vinos, tequilas con deliciosos
+			platillos en nuestro Festival de
+			Vino y Maridaje. Descubre el
+			fascinante mundo del vino y la
+			gastronomía a través de
+			conferencias, degustaciones y
+			maridajes exquisitos.
+		</div>
+		<div class="modal-footer">
+		  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+		  <button type="button" class="btn btn-primary">Save changes</button>
+		</div>
+	  </div>
+	</div>
+</div>
+
+<div class="modal fade" id="fmaridaje" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <h1 class="modal-title fs-5" id="exampleModalLabel">Festival de vino y maridaje </h1>
+		  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		</div>
+		<div class="modal-body">
+		  ...
+		</div>
+		<div class="modal-footer">
+		  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+		  <button type="button" class="btn btn-primary">Save changes</button>
+		</div>
+	  </div>
+	</div>
+</div>
+
+<div class="modal fade" id="fartesanias" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <h1 class="modal-title fs-5" id="exampleModalLabel">Exhibición y venta de Artesanías Zacatecanas </h1>
+		  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		</div>
+		<div class="modal-body">
+		  ...
+		</div>
+		<div class="modal-footer">
+		  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+		  <button type="button" class="btn btn-primary">Save changes</button>
+		</div>
+	  </div>
+	</div>
+</div>
+
+<div class="modal fade" id="fairelibre" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <h1 class="modal-title fs-5" id="exampleModalLabel">Eventos al aire libre</h1>
+		  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		</div>
+		<div class="modal-body">
+		  ...
+		</div>
+		<div class="modal-footer">
+		  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+		  <button type="button" class="btn btn-primary">Save changes</button>
+		</div>
+	  </div>
+	</div>
+</div>
+
+<div class="modal fade" id="fmusica" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <h1 class="modal-title fs-5" id="exampleModalLabel">Música (flamenco, mariachi, etc.)</h1>
+		  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		</div>
+		<div class="modal-body">
+		  ...
+		</div>
+		<div class="modal-footer">
+		  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+		  <button type="button" class="btn btn-primary">Save changes</button>
+		</div>
+	  </div>
+	</div>
+</div>
+
+<div class="modal fade" id="fgastronomicos" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <h1 class="modal-title fs-5" id="exampleModalLabel">Festivales Gastronómicos </h1>
+		  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		</div>
+		<div class="modal-body">
+		  ...
+		</div>
+		<div class="modal-footer">
+		  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+		  <button type="button" class="btn btn-primary">Save changes</button>
+		</div>
+	  </div>
+	</div>
+</div>
+
+<div class="modal fade" id="ftequila" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <h1 class="modal-title fs-5" id="exampleModalLabel">Festivales del tequila y mezcal </h1>
+		  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		</div>
+		<div class="modal-body">
+		  ...
+		</div>
+		<div class="modal-footer">
+		  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+		  <button type="button" class="btn btn-primary">Save changes</button>
+		</div>
+	  </div>
+	</div>
+</div>
+
+<div class="modal fade" id="fpirotecnicos" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <h1 class="modal-title fs-5" id="exampleModalLabel">Fuegos pirotécnicos</h1>
+		  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		</div>
+		<div class="modal-body">
+		  ...
+		</div>
+		<div class="modal-footer">
+		  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+		  <button type="button" class="btn btn-primary">Save changes</button>
+		</div>
+	  </div>
+	</div>
+</div>
+  
+
+<div class="modal fade" id="fmaseventos" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <h1 class="modal-title fs-5" id="exampleModalLabel">Más eventos...</h1>
+		  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		</div>
+		<div class="modal-body">
+		  ...
+		</div>
+		<div class="modal-footer">
+		  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+		  <button type="button" class="btn btn-primary">Save changes</button>
+		</div>
+	  </div>
+	</div>
+</div>
+  
 
