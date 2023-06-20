@@ -350,3 +350,19 @@
     });
 
 })(jQuery);
+
+// para cada medida de pantalla
+
+function pantalla(){
+    var mediaqueryList = window.matchMedia("(max-width: 900px)");
+
+    if(mediaqueryList.matches) {
+        // document.getElementById("activar").setAttribute("class","active");
+        // document.getelements("activar").classList.add('active');
+
+        const collection = document.querySelectorAll("#activar");
+            for (let i = 0; i < collection.length; i++) {
+            collection[i].classList.add('active');
+            }
+      }
+}
