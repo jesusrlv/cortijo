@@ -326,6 +326,20 @@
     z-index: 100;
     background-size: cover;
 }
+.page-title2{
+    position: relative;
+    padding-top: 229px;
+    padding-bottom: 158px;
+    /* background:linear-gradient(150deg,  rgba(2,6,9,0.93) 33%,  rgba(2,6,9,0) 77%), url("../img/slider/img_bg_slider_home01.jpg") no-repeat fixed center center ;  */
+    background:linear-gradient(150deg,  rgba(0, 0, 0, 0.10) 20%,  rgba(255, 255, 255, 0.09) 80%), url("../../img/corporativo/img07.jpeg") no-repeat fixed center center ; 
+    z-index: 100;
+    background-size: cover;
+}
+
+#logocorp{
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+}
 
 .slider .img-bg2{
     position: absolute;
